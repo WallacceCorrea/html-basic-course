@@ -1,0 +1,143 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  max-width: 1080px;
+  margin: auto;
+}
+
+img {
+  width: 100px;
+}
+
+.hero {
+  background-image: url("http://4.bp.blogspot.com/_yoQxqVo5KJU/TBpPGUqeISI/AAAAAAAADig/gdIs5j4Hluk/s1600/Icaraii+view+to+Rio.jpg");
+  background-size: cover;
+  background-position: 0 30%;
+  height: 450px;
+  color: antiquewhite;
+  margin: auto;
+}
+
+.hero-txt {
+  padding-top: 55px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+#hero-title {
+  margin: 25px auto 10px;
+}
+
+#hero-subtitle {
+  margin: 0;
+}
+
+.activities {
+  background-color: #f1faee;
+  padding: 50px;
+}
+
+.activities-img-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.activities-img {
+  margin: 40px 0 10px;
+  border: 4px solid white;
+  border-radius: 25px;
+  width: 160px;
+  height: 130px;
+}
+
+.activities-img:hover {
+  border-color: cadetblue;
+  transition: 0.2s;
+}
+
+.activities-txt {
+  margin: 0;
+}
+
+#img-beach {
+  background-image: url(https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2017/07/praia_de_itacoatiara_e_trilha_do_costo_-_niteri.jpg);
+  background-size: cover;
+}
+
+#img-cycling {
+  background-image: url("https://photos.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDI5NzUwODMvYmVhMmJmMjM0NDMwNjQ1MjhmYjFiYjE4YTczODAxYmEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==");
+  background-size: cover;
+}
+
+#img-museum {
+  background-image: url("https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2017/07/6790569431_4251aa4396_b.jpg");
+  background-size: cover;
+}
+
+.guide {
+  padding: 30px 0 150px 0;
+  background-color: #a8dadc;
+}
+
+.guide-card {
+  display: flex;
+  width: 360px;
+  height: 200px;
+  background-color: #f1faee;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border-bottom: 10px solid #457b9d;
+  box-shadow: 6px 6px 7px rgba(0,0,0,0.2);
+}
+
+.guide-picture {
+  background-image: url("/images/Wallacce_Profile.jpg");
+  background-size: cover;
+  background-position: -10px 0;
+  border-radius: 10px;
+  height: 150px;
+  width: 170px;
+  margin-right: 20px;
+}
+
+.guide-data {
+  width: 300px;
+  text-align: justify;
+}
+
+#guide-name {
+  font-size: 20px;
+  margin: 0 0 40px 0;
+}
+
+#guide-title {
+  margin-bottom: 40px;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: bold;
+}
